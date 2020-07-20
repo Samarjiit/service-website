@@ -52,10 +52,9 @@ const SlantedBackground = styled.span`
 
 const Notification = tw.span`inline-block my-4 pl-3 py-1 text-gray-100 border-l-4 border-blue-500 font-medium text-sm`;
 
-
-const Link = styled(PrimaryButtonBase).attrs({as: "a"})`
+const Link = styled(PrimaryButtonBase).attrs({ as: "a" })`
   ${tw`inline-block mt-4 text-lg font-bold`}
-`
+`;
 
 const StyledResponsiveVideoEmbed = styled(ResponsiveVideoEmbed)`
   padding-bottom: 56.25% !important;
@@ -69,20 +68,15 @@ const StyledResponsiveVideoEmbed = styled(ResponsiveVideoEmbed)`
 export default () => {
   const navLinks = [
     <NavLinks key={1}>
-    
-      <NavLink href="">About</NavLink>
+      <NavLink href="https://blog.hplumbers.com/about/">About</NavLink>
       <NavLink href="">Services</NavLink>
-      <NavLink href="http://blogs.hplumbers.com/blogs">Blog</NavLink>
-      
-      
+      <NavLink href="https://blog.hplumbers.com/">Blogs</NavLink>
     </NavLinks>,
     <NavLinks key={2}>
-      <PrimaryLink href="/#">Call 9811524982 </PrimaryLink>
-    {/*<PrimaryLink href="/#">  For A Free Quote</PrimaryLink>*/}
-    
+      <PrimaryLink href="/#">Call 9811524982 </PrimaryLink>&nbsp;
+      <PrimaryLink href="/#">  For A Free Quote</PrimaryLink>
     </NavLinks>,
   ];
-  
 
   return (
     <Container>
@@ -93,12 +87,12 @@ export default () => {
           <LeftColumn>
             {/* <Notification>We have now launched operations in delhi.</Notification>   */}
             <Heading>
-            <br/>
+              <br />
               <span>Hire the best</span>
               <br />
               <SlantedBackground>Plumbing Team</SlantedBackground>
             </Heading>
-            <Link href='https://www.google.com/search?q=hplumbers&oq=hplumbers&aqs=chrome.0.69i59j0l4j69i60l3.3751j0j7&sourceid=chrome&ie=UTF-8#lrd=0x390d1fdd3a8bb24d:0xb39059accec2a5db,1,,,'>
+            <Link href="https://www.google.com/search?q=hplumbers&oq=hplumbers&aqs=chrome.0.69i59j0l4j69i60l3.3751j0j7&sourceid=chrome&ie=UTF-8#lrd=0x390d1fdd3a8bb24d:0xb39059accec2a5db,1,,,">
               Read Customer Reviews
             </Link>
           </LeftColumn>
@@ -109,7 +103,11 @@ export default () => {
   />*/}
           </RightColumn>
         </TwoColumn>
-        <br/><br/><br/><br/><br/>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </HeroContainer>
     </Container>
   );

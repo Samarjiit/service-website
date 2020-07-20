@@ -43,9 +43,9 @@ export default () => {
           </LogoContainer>
           <LinksContainer>
             <Link href="#">Home</Link>
-            <Link href="#">About</Link>
+            <Link href="https://blog.hplumbers.com/about/">About</Link>
             <Link href="#">Contact Us</Link>
-            <Link href="http://blogs.hplumbers.com/blogs">Blog</Link>
+            <Link href="https://blog.hplumbers.com/">Blog</Link>
             <Link href="https://www.google.com/search?q=hplumbers.&oq=hplumbers.&aqs=chrome..69i57j0l3j69i60l4.2886j0j7&sourceid=chrome&ie=UTF-8#lrd=0x390d1fdd3a8bb24d:0xb39059accec2a5db,1,,,">Reviews</Link>
           </LinksContainer>
           <SocialLinksContainer>

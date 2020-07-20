@@ -59,7 +59,7 @@ export default ({
       category: "Bathroom",
       title: "7 Essential Bathroom Hacks that Makes your life easier",
       description: "Our bathroom is one of the most important places in our home. It is where we take a shower every day and get ready to start our day.It goes without saying that our bathrooms need to be organized and efficient.",
-      url: "https://reddit.com"
+      url: "https://blog.hplumbers.com/7-essential-bathroom-hacks-that-makes-your-life-easier/"
     },
     {
       imageSrc:
@@ -68,7 +68,7 @@ export default ({
       category: "Accessories",
       title: "Why do you need proper ventilation at home?",
       description: "A house without proper ventilation is a cake without icing or facing the pandemic without a mask. Proper ventilation not only makes sure a healthy household but also expands the life of your house.",
-      url: "https://timerse.com"
+      url: "https://blog.hplumbers.com/why-do-you-need-proper-ventilation-at-home/"
     },
     {
       imageSrc:
@@ -77,7 +77,7 @@ export default ({
       category: "Services",
       title: "5 common bathroom issues you face in day to day life",
       description: "As the bathroom is one of the basic things which we use in our day to day life. However, with regular use, it comes to tear and wear, which needed to be maintained on every month.",
-      url: "https://timerse.com"
+      url: "https://blog.hplumbers.com/5-common-bathroom-issues-you-face-in-day-to-day-life/"
     },
       
   ];

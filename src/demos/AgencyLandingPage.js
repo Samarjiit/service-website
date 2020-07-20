@@ -16,7 +16,7 @@ import Footer from "components/footers/MiniCenteredFooter.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
 
 export default () => (
-  <AnimationRevealPage >
+  <AnimationRevealPage>
     <Hero />
     <MainFeature />
     <Features />
@@ -26,7 +26,7 @@ export default () => (
       subheading="Testimonials"
       heading={
         <>
-          Our Customers <span tw="text-primary-500">Love Us.</span>
+          Our Customers <span tw="text-primary-500">Love .</span>
         </>
       }
       description="Here are what some of our amazing customers are saying about our services."
@@ -39,7 +39,7 @@ export default () => (
           quote:
             "I've been using HPlumber‘s services for years - they've always been super responsive, and comparatively inexpensive. Currently my house has a plumbing issues of sink installation, the plumber comes and solve the issue in the lowest cost.",
           customerName: "Payal Singh",
-          customerTitle: "HR"
+          customerTitle: "HR",
         },
         {
           imageSrc:
@@ -49,7 +49,7 @@ export default () => (
           quote:
             "There is an issue regarding my shower head. HPlumbers resolve this issue. Very professional, friendly made me really  comfortable. I plan on using them again. I highly recommended HPlumbers.",
           customerName: "Bhavesh Verma",
-          customerTitle: "Manager"
+          customerTitle: "Manager",
         },
         {
           imageSrc:
@@ -59,7 +59,7 @@ export default () => (
           quote:
             "I would like you to know that HPlumbers  was a pleasure to work with. they are thorough, patient and honest. There was a leakage in the bathroom sink and he resolve this problem very efficiently. I will recommend him to all my friends and family.",
           customerName: "Kavita Sharma",
-          customerTitle: "Teacher"
+          customerTitle: "Teacher",
         },
         {
           imageSrc:
@@ -69,8 +69,8 @@ export default () => (
           quote:
             "I've been a loyal customer for years. They have always been professional, friendly and knowledgeable. Few days ago there is a geyser problem , the plumber comes on time  and solve the  problem . Once they fix something, it stays fixed. Good plumbing services in vasant kunj.",
           customerName: "Abhinav Raut",
-          customerTitle: "Software Engineer"
-        }
+          customerTitle: "Software Engineer",
+        },
       ]}
       textOnLeft={true}
     />

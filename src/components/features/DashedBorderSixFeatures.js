@@ -74,18 +74,18 @@ export default () => {
     {
       imageSrc: leak,
       title: "Leak Detection and Repair",
-      description: "We create and manage ads that you need, from creation to deployment. Lorem ipsum donor sit amet consicou."
+      description: ""
     },
     { imageSrc: pipeinstall, title: "Pipe Installation and Repair" ,description:""},
     { imageSrc: toilet, title: "Toilet Installation and Repair", description:""},
     { imageSrc: sink, title: "Faucet,Sink,Basin Repair and Installation",description:"" },
     { imageSrc: bathtub, title: "Tile,Shower,Bathtub Repair and Installation",description:"" },
-    { imageSrc: watertank, title: "Tank Related Issue",description:"" },
+    { imageSrc: watertank, title: "Tank Related Issue and installation",description:"" },
     { imageSrc: SimpleIconImage, title: "Bathroom Fitting and Installation",description:"" },
     { imageSrc: motor, title: "Water Motor Pump Services",description:"" },
     { imageSrc: emergency, title: "Emergency Plumbing Services",description:"" },
     { imageSrc: rainwater, title: "Rainwater Harvestion System Installation",description:"" },
-    { imageSrc: waterprof, title: "Water Proffing Solution",description:"" },
+    { imageSrc: waterprof, title: "Water Proffing Solution and repair",description:"" },
     { imageSrc: geyser, title: "Geyser Repair and Installation",description:"" },
 
   ];
@@ -103,7 +103,7 @@ export default () => {
               <span className="textContainer">
                 <span className="title">{card.title || "Fully Secure"}</span>
                 <p className="description">
-                  {card.description || "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud. Sic Semper Tyrannis. Neoas Calie artel."}
+                  {card.description || ""}
                 </p>
               </span>
             </Card>
