@@ -72,7 +72,7 @@ export default ({
       Icon: BriefcaseIcon,
       title: "Schedule Your Service",
       description:
-        "Book a service by call. We will respond you in no time to serve you better.",
+        "Book a service by call or appointment form. We will respond you in no time to serve you better.",
     },
     {
       Icon: MoneyIcon,

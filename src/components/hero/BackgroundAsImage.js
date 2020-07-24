@@ -71,10 +71,12 @@ export default () => {
       <NavLink href="https://blog.hplumbers.com/about/">About</NavLink>
       <NavLink href="">Services</NavLink>
       <NavLink href="https://blog.hplumbers.com/">Blogs</NavLink>
+      <NavLink href="https://docs.google.com/forms/d/e/1FAIpQLSffIpwwqNuKNl5OV_OcCBIVOIvyzd2hmO8m-GREPLwahXVAEg/viewform?usp=sf_link ">Appointment</NavLink>
+
     </NavLinks>,
     <NavLinks key={2}>
-      <PrimaryLink href="/#">Call 9811524982 </PrimaryLink>&nbsp;
-      <PrimaryLink href="/#">  For A Free Quote</PrimaryLink>
+      <PrimaryLink href="https://docs.google.com/forms/d/e/1FAIpQLSffIpwwqNuKNl5OV_OcCBIVOIvyzd2hmO8m-GREPLwahXVAEg/viewform?usp=sf_link  ">Call 9811524982 </PrimaryLink>&nbsp;
+      <PrimaryLink href="https://docs.google.com/forms/d/e/1FAIpQLSffIpwwqNuKNl5OV_OcCBIVOIvyzd2hmO8m-GREPLwahXVAEg/viewform?usp=sf_link  ">  For A Free Quote</PrimaryLink>
     </NavLinks>,
   ];
 

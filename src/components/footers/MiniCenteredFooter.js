@@ -44,7 +44,7 @@ export default () => {
           <LinksContainer>
             <Link href="#">Home</Link>
             <Link href="https://blog.hplumbers.com/about/">About</Link>
-            <Link href="#">Contact Us</Link>
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSffIpwwqNuKNl5OV_OcCBIVOIvyzd2hmO8m-GREPLwahXVAEg/viewform?usp=sf_link">Contact Us</Link>
             <Link href="https://blog.hplumbers.com/">Blog</Link>
             <Link href="https://www.google.com/search?q=hplumbers.&oq=hplumbers.&aqs=chrome..69i57j0l3j69i60l4.2886j0j7&sourceid=chrome&ie=UTF-8#lrd=0x390d1fdd3a8bb24d:0xb39059accec2a5db,1,,,">Reviews</Link>
           </LinksContainer>
