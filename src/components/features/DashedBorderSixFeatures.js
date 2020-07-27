@@ -84,8 +84,8 @@ export default () => {
     { imageSrc: SimpleIconImage, title: "Bathroom Fitting and Installation",description:"" },
     { imageSrc: motor, title: "Water Motor Pump Services",description:"" },
     { imageSrc: emergency, title: "Emergency Plumbing Services",description:"" },
-    { imageSrc: rainwater, title: "Rainwater Harvestion System Installation",description:"" },
-    { imageSrc: waterprof, title: "Water Proffing Solution and repair",description:"" },
+    { imageSrc: rainwater, title: "Rainwater Harvesting System Installation",description:"" },
+    { imageSrc: waterprof, title: "Water Proofing Solution and repair",description:"" },
     { imageSrc: geyser, title: "Geyser Repair and Installation",description:"" },
 
   ];

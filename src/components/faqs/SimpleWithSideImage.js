@@ -40,7 +40,7 @@ const Answer = motion.custom(tw.dd`pointer-events-none text-sm sm:text-base lead
 export default ({
   subheading = "",
   heading = "Questions",
-  description = "Here are some frequently asked questions about our services from our loving customers. Should you have any other questions, feel free to reach out via the contact form below.",
+  description = "Here are some frequently asked questions about our services from our loving customers.",
   imageSrc = "https://images.unsplash.com/photo-1579427421635-a0015b804b2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
   imageContain = false,
   imageShadow = true,
@@ -54,7 +54,7 @@ export default ({
     {
       question: "How can avail a service?",
       answer:
-        "Just call in our 24x7 Call centre 9811524982 our executive will call you back and took an appointment from you. HPlumbers will visit for inspection or diagnosis and start your work at the earliest possible time."
+        "Just call at 9811524982 and our executive will call you back and took an appointment from you. HPlumbers will visit for inspection or diagnosis and start your work at the earliest possible time."
     },
     {
       question: "How can I pay you?",
@@ -63,14 +63,24 @@ export default ({
     },
     
     {
-      question: "Where can I reach you for support ?",
+      question: "What is the warranty on service ?",
       answer:
-        "call us at 9811524982."
+        "We offer a 7 day warranty from the date of invoice on all repairs. You need not pay Labour charges in case of a rework within that 7 day period. However, if any spare part/material is needed for rework, the cost would have to be borne by you."
     },
     {
-      question: "Can we rely HPlumbers will be at our address on time?",
+      question: "Is it safe for me to allow your Plumber in my home?",
       answer:
-        "HPlumbers really trying hard to punctual and avoid waste your precious time."
+        "It is absolutely safe for you to trust our Service Providers. All of them are background checked and police verified. Hence they are trusted & reliable. Our Operations team is always in constant touch with the Service Provider when the work is being done."
+    },
+    {
+      question: "Will I get invoice once the job is complete ?",
+      answer:
+        "Yes, we will send you the invoice for the labour charges. Material invoice/bill will be shared by the Service Provider and you will have to settle the material bill with the service provider."
+    },
+    {
+      question: "Why do you have inspection charges?",
+      answer:
+        "Inspection charges are applicable only if you decide to not take a service after the technician has visited and inspected your issue."
     }
   ];
 
